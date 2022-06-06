@@ -9,7 +9,7 @@ export const Card = ({ filteredData }) => {
             <img
               src={photoURL}
               alt="random-img"
-              className="h-70 object-cover rounded-lg"
+              className="h-70 w-full object-cover rounded-lg"
             />
             <div className="bg-black text-white absolute w-full bottom-0 h-30 rounded-b-lg p-2 hover:opacity-90">
               <span className="text-2xl m-2 p-2">{title}</span>
